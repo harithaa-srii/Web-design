@@ -1,0 +1,74 @@
+body{
+    background-color: #EDEAE5;
+    border-style: double;
+    border-color: #EE4C7C;
+    padding:50px 30px 50px 30px;
+    border:50px 50px 50px 50px;
+ 
+}
+#title{
+    text-align: center;
+}
+#quote
+{
+    font-family: Cambria;
+    font-size:30px;
+    text-align: center;
+}
+#img-div
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    font-style: italic;
+}
+#tribute-info
+{
+    font-family:calibri;
+font-size: 20px;
+  text-align:left;
+}
+@media(min-width:100px)
+  {
+  h1{
+    font-size:22px;
+    }
+    #quote{
+      font-size:15px;
+      }
+    img{
+      width:200px;
+      height:px;
+      margin-left:auto;
+      margin-right:auto;
+      }
+    #img-caption{
+      font-size:10px;
+      opacity:0.8;
+      margin-left:auto;
+      margin-right:auto;
+      }
+   
+    }
+
+@media(min-width:600px)
+{
+  #quote
+{
+    font-family: Cambria;
+    font-size:30px;
+    text-align: center;
+}
+
+  img{
+    width:400px;
+    display:center;
+    margin-left:200px;
+  }
+  #img-caption{
+    text-align:center;
+    font-size:15px;
+    margin-left:200px;
+  }
+}
