@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - technical documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+    <link rel="stylesheet" href="technical document.css" type="text/css">
+<head>
+<title>Technical Documentation</title>
+</head>
+<body>
+<nav id="nav-bar">
+<header style="text-align:center;font-size:40px;font-family: 'Courier New', Courier, monospace;color:#52ab98">Java Documentation</header>
+<div id="navi-style">
+<ul>
+<li><a class ="nav-link" href="#Introduction">Introduction</a></li>
+<li><a class="nav-link" href="#History">History</a></li>
+<li><a class="nav-link" href="#Features">Features</a></li>
+<li><a class="nav-link" href="#LatestVersion">Latest Version</a></li>
+<li><a class="nav-link" href="#Execution System">Execution System</a></li>
+  <li><a class="nav-link" href="#Sample Codings">Sample Codings</a></li>
+</ul>
+</div>
+</nav>
+  <br>
+<main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header><b>Introduction</b></header>
+        <article>
+            <p>Java is a high-level,class based,object-oriented programming language that is designed to
+                have as few implementation dependencies as possible.It is a general-purpose programming language
+                intended to let application developers write once,run anywhere(WORA),meaning that compiled
+                Java code can run on all platforms that support Java without the need for recompilation.
+            </p>
+            <p>Java applications are typically compiled to bytecode that can run on any Java Virtual Machine(JVM)
+            regardless of te underlying computer architecture.The syntax of Java is similar to C and C++,but has 
+            fewer low-level facilities than either of them.The  Java runtime provides dynamic capabilities that are 
+            typically not available in traditional compiled languages.
+            </p>
+        </article>
+    </section>
+    <section class="main-section" id="History">
+      <header><b>History</b></header>
+    <p>Java was started as a project called "Oak" by James Gosling in June 1991.The language, initially called 'Oak' after an oak tree that stood outside Gosling's office,also
+        went by the name 'Green' and ended up later being renamed as Java, from a list of random words.
+        The goal was to implement a virtual machine tat is much simpler than C/C++.Java was developed with the goal to implement "Write Once,Run Anywhere"
+        programming model.</p>
+    </section>
+    <section class="main-section" id="Features">
+      <header><b>Features</b></header>
+        <ul>
+            <li>Object Oriented</li>
+            <p>In Java, everything is an Object. Java can be easily extended since it is based on the Object model.</p>
+            <li>Platform Independent</li>
+           <p>Unlike many other programming languages including C and C++, when Java is compiled, 
+            it is not compiled into platform specific machine, rather into platform-independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.</p>
+            <li>Simple</li>
+            <p>Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+             </p>
+            <li>Secure</li>
+            <p>With Java's secure feature it enables to develop virus-free, tamper-free systems.
+             Authentication techniques are based on public-key encryption.</p>
+            <li>Architecture-neutral</li>
+           <p>Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, 
+               with the presence of Java runtime system.</p>
+            <li>Portable</li>
+            <p>Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. 
+            The compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.</p>
+            <li>Robust</li>
+            <p>Java makes an effort to eliminate error-prone situations by emphasizing mainly on compile time error checking and runtime checking.</p>
+            <li>Multithreaded</li>
+          <p>With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously.
+            This design feature allows the developers to construct interactive applications that can run smoothly.</p>
+            <li>Interpreted</li>
+          <p>Java byte code is translated on the fly to native machine instructions and is not stored anywhere. 
+            The development process is more rapid and analytical since the linking is an incremental and light-weight process.</p>
+            <li>High Performance</li>
+        <p>With the use of Just-In-Time compilers, Java enables high performance.</p>
+            <li>Distributed</li>
+        <p>Java is designed for the distributed environment of the internet.</p>
+            <li>Dynamic</li>
+        <p>Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment.
+         Java programs can carry an extensive amount of run-time information that can be used to verify and resolve accesses to objects at run-time.</p>
+        </ul>
+    </section>
+    <section class="main-section" id="LatestVersion">
+      <header><b>Latest Version</b></header>
+    <p>Java SE 16.0. 2 is the latest release of Java SE Platform. 
+    Oracle strongly recommends that all Java SE users upgrade to this release.</p>
+    </section>
+    <section class="main-section" id="Execution System">
+      <header><b>Execution System</b></header>
+        <p>The class files generated by the compiler are independent of the machine or the OS, which allows them to be run on any system. To run, the main class file (the class that contains the method main) is passed to the JVM,
+         and then goes through three main stages before the final machine code is executed.</p>  
+    </section>
+  <section class="main-section" id="Sample Codings">
+    <header><b>Sample Codings</b></header>
+    <p>PROGRAM TO PRINT A STATEMENT:</p>
+    <code>
+      class begin{
+      public static void main(String args[])
+      {
+      System.out.println("Hello all");
+      }
+      }
+    </code>
+    <p>PROGRAM TO PRINT INTEGER(NON-DECIMAL NUMBERS)</p>
+    <code>
+      import java.util.Scanner;
+      class begin{
+      public static void main(String args[])
+      {
+      Scanner cls=new Scanner(System.in);
+      System.out.println("Enter the numbers:");
+      int a=cls.nextInt();
+      int b=cls.nextInt();
+      System.out.println("a:"+a);
+      System.out.println("b:"+b);
+      }
+      }
+    </code>
+    <p>PROGRAM TO ADD TWO NUMBERS</p>
+    <code>
+      class begin{
+      public static void main(String args[])
+      {
+      int a=10;
+      int b=20;
+      System.out.println("a:"+a);
+      System.out.println("b:"+b);
+      int sum=a+b;
+      System.out.println("Sum is"+sum);
+      }
+      }
+    </code>
+    <p>PROGRAM TO MULTIPLY TWO FLOATING POINT NUMBERS</p>
+    <code>
+      class begin{
+      public static void main(String args[]){
+      float a=2.5;
+      float b=5.5;
+      float product=a*b;
+      System.out.println("Product is"+product);
+      }
+      }
+    </code>
+    <p>PROGRAM TO COMPUTE QUOTIENT AND REMAINDER</p>
+    <code>
+      class begin{
+      public static void main(String args[]){
+      int a =10;
+      int b=5;
+      int quotient=a/b;
+      int remainder=a%b;
+      System.out.println("Quotient:"+quotient);
+      System.out.println("Remainder:"+remainder);
+      }
+      }
+    </code>
+</main>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
