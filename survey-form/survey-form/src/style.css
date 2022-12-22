@@ -1,0 +1,44 @@
+h1{
+    text-align:center;
+  font-family:courier;
+}
+body{
+    font-weight: 300;
+    font-size:20px;
+    font-family:monospace,serif,verdana;
+    background-color:blueviolet;
+    color:white;
+}
+#name{
+    padding:5px 15px;
+    border-radius:15px;
+}
+#email{
+    padding:5px 15px;
+    border-radius:15px;
+}
+#number{
+    padding:5px 15px;
+    border-radius:15px;
+}
+#occupation{
+    padding:5px 25px;
+    border-radius:15px;
+}
+#survey-form
+{
+    line-height:1.5em;
+}
+#comment{
+    padding:20px 30px;
+    border-radius:15px;
+}
+.button{
+    background-color: cornsilk;
+    color:black;
+    padding:15px 15px;
+    text-align: center;
+    border-width:10px;
+    border-radius:15px;
+
+}

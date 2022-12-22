@@ -1,0 +1,39 @@
+
+    <link rel="stylesheet" href="survey form styles.css" type="text/css">
+<body>
+    <h1 id="title">Survey on Online Studies</h1>
+    <p id="description">Thank you for taking the time to help us know better about the scenario</p>
+    <form id="survey-form">
+        <label id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br>
+        <label id="email-label">Email</label><br>
+        <input type="text" id="email" placeholder="eg:abc@gmail.com" required><br>
+        <label id="number-label">Age(optional)</label><br>
+        <input type="number" id="number" placeholder="Enter your age"><br>
+        <label for="occupation">What is your occupation?</label><br>
+        <select name="occupation" id="occupation">
+            <option name="student">Student</option>
+            <option name="teacher">Teacher</option>
+            <option name="others">Others</option>
+        </select>
+        <br>
+        <label id="review-label">How is your experience in online studies?</label><br>
+        <label>
+        <input type="radio" id="good" name="good-bad">Good
+    </label>
+    <br>
+    <label>
+        <input type="radio" id="bad" name="good-bad">Bad
+    </label><br>
+    <label id="suggestion">How to improve the online studies?</label>
+    <label><br>
+        <input type="checkbox" id="time">Reducing time
+    </label><br>
+    <label>
+    <input type="checkbox" id="optimize">Optimize the screens to reduce eye related ailments</label><br>
+<p>Any comments?</p>
+<textarea id="comment" placeholder="Enter your comment"></textarea><br>
+
+<button type="submit" class="button">SUBMIT</button>
+    </form>
+</body>
